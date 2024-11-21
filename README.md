@@ -93,12 +93,7 @@ To execute CipherVeil on your local machine, follow these steps:
 
 CipherVeil successfully demonstrates the use of steganography to embed and extract data securely while maintaining the quality of media files.
 
-## Output 
-
-![Application Screenshot](application_screenshot.png)
 
 ## Contributors
 
 - **Palak Rajput**  
-
-This project was completed under the guidance of Savitribai Phule Pune University as part of the MCA program for the academic year 2023-24.
