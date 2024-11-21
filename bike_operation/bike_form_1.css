@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 0vw 0.1vw 0vw 0.1vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    /* width: 100vw; */
+    /* max-width: auto; */
+    height: 100%;
+    /* position: relative; */
+    background-color: #A7F8FD;
+    /* margin: 2vw 0vw 0vw 7vw; */
+    align-items: center;
+    border-radius: 1vw;
+}
+
+.process h1 {
+    letter-spacing: 0.1vw;
+    font-family: 'Goldman', sans-serif;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 3vw 0vw 3vw 0vw;
+    position: relative;
+}
+
+.process {
+    padding: 2vw 2vw 2vw 2vw;
+    position: relative;
+}
+
+.first-form {
+    border-style: solid;
+    display: flex;
+    border-radius: 1.5vw;
+    border-color: rgb(46, 240, 240);
+    padding: 3vw 6vw 3vw 6vw;
+    height: fit-content;
+    margin: 0vw 0vw 8vw 0vw;
+    font-family: 'Goldman', sans-serif;
+    font-size: 1.2vw;
+}
+
+::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.car label {
+    margin: 1vw 0vw 1vw 0vw;
+    border-radius: 0.5vw;
+    border-spacing: 0.5vw;
+}
+
+.button {
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 1vw 1vw 3vw 1vw;
+    /* gap: 15vw; */
+}
+
+.back_btn {
+    background-color: #FC9797;
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    font-family: 'Goldman', sans-serif;
+    border-radius: 0.2vw;
+    margin: 0vw 0vw 0vw 0vw;
+    float: left;
+    /* text-align: left; */
+    /* position: relative; */
+        /* margin-left: 10px; */
+}
+.back_btn button {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.back_btn:hover {
+    background-color: #e08484;
+}
+
+.back_btn:active {
+    background-color: #e08484;
+}
+
+.next_btn {
+    background-color: #FC9797;
+    /* float: center; */
+    padding: 0.5vw 1.5vw 0.5vw 1.5vw;
+    text-align: end;
+    margin: 0vw 0vw 0vw 25vw;
+    font-family: 'Goldman', sans-serif;
+    border-radius: 0.2vw;
+    /* display: inline; */
+}
+
+.next_btn button {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.next_btn:hover {
+    background-color: #e08484;
+}
+
+.next_btn:active {
+    background-color: #e08484;
+}

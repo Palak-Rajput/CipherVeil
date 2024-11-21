@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin: 0vw 0.1vw 0vw 0.1vw;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+/* navbar */
+.back_img {
+    padding: 1vw 0vw 0vw 0vw;
+    width: 5vw;
+    height: 5vh;
+}
+
+.container {
+    position: relative;
+    background-color: #A7F8FD;
+    align-items: center;
+    width: auto;
+    height: max-content;
+    margin: 0vw 23vw 0vw 23vw;
+    border-radius: 1vw;
+}
+
+.container h1 {
+    letter-spacing: 0.1vw;
+    font-family: 'Goldman', sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    padding: 3vw 0vw 3vw 0vw;
+    position: relative;
+}
+
+.card_container {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+    margin: 0vw 0vw 10vw 0vw;
+}
+
+/* car card */
+.car_card {
+    position: relative;
+    width: 15vw;
+    height: max-content;
+    padding: 0vw 0vw 1vw 0vw;
+    background-color: #C9BDF9;
+    margin: 0vw 0vw 0vw 0vw;
+    align-self: flex-start;
+    border-radius: 1vw;
+    align-items: center;
+}
+
+.car_gif {
+    margin: 1vw 0vw 0vw 0vw;
+    width: 12.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+}
+
+.car_btn {
+    font-family: 'Goldman', sans-serif;
+    background-color: #B6A8EB;
+    text-align: center;
+    font-size: 1.8vw;
+    width: 10vw;
+    text-decoration: none;
+    border-radius: 0.4vw;
+    margin: 0.5vw 0vw 0vw 2.5vw;
+}
+
+.car_btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.car_btn :hover {
+    color: rgb(96, 19, 64, 0.7);
+}
+
+.car_hover :hover {
+    /* background-image: url("images/car_gif.gif"); */
+    /* background-color: black; */
+    content: url("https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fcar_gif.gif?alt=media&token=612e3874-071a-43c4-acd8-d33d3ce60f31&_gl=1*12ys403*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODM5NjcxNC4yLjEuMTY5ODM5Njc2NC4xMC4wLjA.");
+    margin: 1vw 2vw 0vw 1.21vw;
+    width: 12.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+    /* padding: 0vw 1vw 0vw 0vw; */
+}
+
+/* bike card */
+.bike_card {
+
+    position: relative;
+    width: 15vw;
+    height: max-content;
+    padding: 0vw 0vw 0.5vw 0vw;
+    background-color: #C9BDF9;
+    margin: 0vw 0vw 0vw 0vw;
+    border-radius: 1vw;
+}
+
+.bike_img {
+    margin: 1vw 0vw 0vw 0vw;
+    width: 12.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+}
+
+.bike_btn {
+    font-family: 'Goldman', sans-serif;
+    background-color: #B6A8EB;
+    text-align: center;
+    font-size: 1.8vw;
+    width: 10vw;
+    border-radius: 0.4vw;
+    margin: 0.5vw 0vw 0vw 2.5vw;
+}
+
+.bike_hover :hover {
+    content: url("https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fbike_gif.gif?alt=media&token=01c032cb-0769-45d2-8401-d8d0aa44c501&_gl=1*1262dxp*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODI2NTc3Ny4xLjEuMTY5ODI2NjI4MS4xNC4wLjA.");
+    margin: 1vw 2vw 0vw 1.21vw;
+    width: 12.5vw;
+    height: 10vw;
+    border-radius: 1vw;
+}
+
+.bike_btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.bike_btn :hover {
+    color: rgb(96, 19, 64, 0.7);
+}

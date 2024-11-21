@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="car_form_1.css">
+
+    
+    <link rel="stylesheet" href="choose.css">
+
+    <style>
+        .bike_btn {
+  border: 2px solid black;
+  /* color: white; */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    </style>
+</head>
+
+<body class="container ">
+    <div>
+        <div class="process">
+            <h1 class="text-center">
+                Enter Your Image Details
+            </h1>
+
+            <!-- <div class="card_container">
+                <div class="car_card" id="gif-rows">
+                    <div class="car_hover">
+                        <center><a href="../car_operation/car_form_1.html">
+                                <img src="https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fcar_img.jpeg?alt=media&token=c0871939-b789-4c1c-a11f-fb501565145d&_gl=1*b7p7zx*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODI2NTc3Ny4xLjEuMTY5ODI2NjM3My42MC4wLjA."
+                                    alt="gif preset" class="car_gif">
+    
+                            </a></center>
+                    </div>
+                    <button class="car_btn"><a href="../car_operation/car_form_1.html"> Image</a></button>
+    
+                    
+                </div>
+                <div class="bike_card">
+                    <div class="bike_card">
+                        <div class="bike_hover">
+                            <center><a><img
+                                        src="https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fbike_img.jpg?alt=media&token=3a810878-bc82-4055-8d9c-cf2f4902b712&_gl=1*1jutr7b*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODI2NTc3Ny4xLjEuMTY5ODI2NjM1MC4xMC4wLjA."
+                                        class="bike_img" alt="car" /></a></center>
+    
+                        </div>
+                        <button class="bike_btn"><a href="../bike_operation/bike_form_1.html">Text</a></button>
+    
+                    </div>
+                </div>
+                <div class="bike_card">
+                    <div class="bike_card">
+                        <div class="bike_hover">
+                            <center><a><img
+                                        src="https://firebasestorage.googleapis.com/v0/b/foodexplorer-45afa.appspot.com/o/AutoEconomix%2Fbike_img.jpg?alt=media&token=3a810878-bc82-4055-8d9c-cf2f4902b712&_gl=1*1jutr7b*_ga*NjE3NTM1OTQuMTY5ODI2NTc3Nw..*_ga_CW55HF8NVT*MTY5ODI2NTc3Ny4xLjEuMTY5ODI2NjM1MC4xMC4wLjA."
+                                        class="bike_img" alt="car" /></a></center>
+    
+                        </div>
+                        <button class="bike_btn"><a href="../bike_operation/bike_form_1.html">Video</a></button>
+    
+                    </div>
+                </div>
+                
+            </div> -->
+
+
+
+
+
+            <div class="d-flex justify-content-center ">
+
+                <form id="car_form" action="./car_form_1.php" class="form border-5 first-form">
+
+
+
+
+                    
+                    <div class="car">
+                        <button class="bike_btn"><a href="../bike_operation/bike_form_1.html">Encode</a></button>
+                        <button class="bike_btn"><a href="../bike_operation/bike_form_1.html">Decode</a></button>
+                        <button class="bike_btn"><a href="../bike_operation/bike_form_1.html">Exit</a></button>
+
+                        <!-- <label>Car Brand :</label>&emsp;&emsp;
+                        <label for="brand">
+                            <select name="brand" id="brand" style="width: 17.5vw;">
+                                <option value="" >Select Car Brand</option>
+                            </select> -->
+                        <!-- </label> -->
+                        <!-- <br> -->
+                        <!-- <label>Car Model :</label>&emsp;&emsp;
+                        <label for="model" >
+                            <select name="model" id="model" style="width: 17.5vw;">
+                                <option value="">Select Car Model</option>
+                            </select>
+                        </label><br>
+                        <label>Kilometer : </label>&emsp;&emsp;
+                        <input type="number" id="km_driven" placeholder="Vehicle Kilometers Driven " style="width: 17.5vw;" /><br>
+
+                        <label>Fuel Type : </label>&emsp;&emsp;
+                        <label for="fuel_type" >
+                            <select class="select picker" name="fuel_type" id="fuel_type" style="width: 17.5vw;">
+                                <option value="">Car Fuel Type</option>
+                                <option value="petrol">Petrol</option>
+                                <option value="diesel">Diesel</option>
+                                <option value="electric">Electric</option>
+                                <option value="cng">CNG</option>
+                                <option value="hybrid">Hybrid</option>
+                                <option value="lpg">LPG</option>
+                            </select>
+                        </label><br> -->
+
+                        <!-- <label>City : </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <label for="city">
+                            <select name="city" id="city" style="width: 17.5vw;">
+                                <option value="">Select City</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Kolkata">Kolkata</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Thane">Thane</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="Ahmedabad">Ahmedabad</option>
+                                <option value="Pallikarnai">Pallikarnai</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Pune">Pune</option>
+                                <option value="Gurgaon">Gurgaon</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Noida">Noida</option>
+                                <option value="Faridabad">Faridabad</option>
+                                <option value="Thiruvallur">Thiruvallur</option>
+                                <option value="Ambattur">Ambattur</option>
+                                <option value="Poonamallee">Poonamallee</option>
+
+                            </select>
+                        </label><br>
+                        <label>Age : </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <input type="number" id="age" placeholder="Vehicle's Age" style="width: 17.5vw;" /><br>
+                    </div> -->
+                </form>
+            </div>
+            <div class="button position-absolute bottom-0 ">
+                <div class="back d-inline ">
+                    <a href="../choose/choose.html" class="back_btn ">
+                        <button class="btn ">
+                            Back
+                        </button></a>
+                </div>
+                <div class="next d-inline">
+                    <a href="../index.html" class=" next_btn ">
+                        <button class="btn">
+                            Next
+                        </button></a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="./js/brand_model_car.js"></script>
+
+</body>
+
+</html>
